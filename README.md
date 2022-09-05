@@ -6,7 +6,7 @@ Achieve_rooms is a very efficient light-weight rooms program for use with the Ac
 <li><a href="https://nodejs.org/en/download/">Node.js</a> installed.</li>
 <li><a href="https://www.npmjs.com/package/achieve">Install Achieve</a> for HTTP/S/2.</li>
 <li><a href="https://www.npmjs.com/package/ws">Install WS</a> for Websockets.</li>
-<li><a href="">Install achieve_rooms (npm i achieve_rooms)</a></li>
+<li><a href="https://www.npmjs.com/package/achieve_rooms">Install achieve_rooms</a></li>
 </ul>
 <h2>Quick Start</h2>
 <p>There is a quick start configuration / startup file available at <a href="https://github.com/highlevellogic/achieve_quick_start">Github: achieve_quick_start</a> 
@@ -16,7 +16,7 @@ npm pages for each application.</p>
 <p>Once you have installed the components, read comments in <i>achieve_quick_start.js</i> and set file paths appropriately. When ready, 
 run <code>node achieve_quick_start</code>.</p>
 <p>To join a room, add a room name to the URI that is used in the websocket connection request, for example:</p>
-<q>ws = new Websocket("ws://example.com:8440?room=myroom687");</q>
+<q>ws = new Websocket("ws://example.com:8440?room=myroom687");</q><br>
 <p>This works reguardless of language used. Your connection will join the room when the connection request is made. If the room does not yet 
 exist, it will be created. When everyone in a room disconnects, the room is deleted. If you do not specify a room, you will be in the lobby.</p>
 <p>Specifying the room with the connection request helps make achieve_rooms run faster. Identifying and registering in a room happens only 
