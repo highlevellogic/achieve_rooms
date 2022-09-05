@@ -5,7 +5,7 @@
 <ul>
 <li><a href="https://nodejs.org/en/download/">Node.js</a> installed.</li>
 <li><a href="https://www.npmjs.com/package/achieve">Install Achieve</a> for HTTP/S/2.</li>
-<li><a href="https://www.npmjs.com/package/ws">Install WS</a> for Websockets.</li>
+  <li><a href="https://www.npmjs.com/package/ws">Install WS <i>globally</i></a> for Websockets.</li>
 <li><a href="https://www.npmjs.com/package/achieve_rooms">Install achieve_rooms</a></li>
 </ul>
 <h2>Quick Start</h2>
