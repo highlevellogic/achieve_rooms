@@ -1,0 +1,33 @@
+{
+  "name": "achieve_rooms",
+  "version": "1.0.0",
+  "description": "A very efficient light-weight rooms implementation.",
+  "main": "achieve_rooms",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/highlevellogic/achieve_rooms.git"
+  },
+  "keywords": [
+    "server",
+    "http",
+    "https",
+    "http2",
+    "websockets",
+    "rooms",
+    "servlets"
+  ],
+  "author": "Roger F. Gay (HLL Project http://hll.nu)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/highlevellogic/achieve_rooms/issues",
+    "email": "rogerfgay@yahoo.com"
+  },
+  "homepage": "https://github.com/highlevellogic/achieve_rooms#readme",
+  "engines": {
+    "node": ">= 12.8.1"
+  },
+  "dependencies": {}
+}
