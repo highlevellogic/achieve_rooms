@@ -16,7 +16,7 @@ npm pages for each application.</p>
 <p>Once you have installed the components, read comments in <i>achieve_quick_start.js</i> and set file paths appropriately. When ready, 
 run <code>node achieve_quick_start</code>.</p>
 <p>To join a room, add a room name to the URI that is used in the websocket connection request, for example:</p>
-<p><q>ws = new Websocket("ws://example.com:8440?room=myroom687");</q></p>
+<blockquote>ws = new Websocket("ws://example.com:8440?room=myroom687");</blockquote>
 <p>This works reguardless of language used. Your connection will join the room when the connection request is made. If the room does not yet 
 exist, it will be created. When everyone in a room disconnects, the room is deleted. If you do not specify a room, you will be in the lobby.</p>
 <p>Specifying the room with the connection request helps make achieve_rooms run faster. Identifying and registering in a room happens only 
