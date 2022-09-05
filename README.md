@@ -1,6 +1,6 @@
 <section style="background-color:LightSkyBlue;">
 <a href="https://hll.nu"><img src="https://hll.nu/achieve/skyhigh1.jpg"></a>
-<p>Achieve_rooms is a very efficient light-weight rooms program for use with the Achieve server and WS Websockets.</p>
+<p><b>Achieve_rooms is a very efficient light-weight rooms program for use with the Achieve server and WS Websockets.</b></p>
 <h3>Requirements:</h3>
 <ul>
 <li><a href="https://nodejs.org/en/download/">Node.js</a> installed.</li>
